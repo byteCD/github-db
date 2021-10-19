@@ -1,0 +1,13 @@
+.UserItem {
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.UserItem__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.UserItem__link:hover {
+  color: inherit;
+}

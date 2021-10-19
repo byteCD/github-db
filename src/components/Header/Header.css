@@ -1,0 +1,12 @@
+.Header {
+  background-color: #161b22;
+}
+
+.Header__logo {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Header__logo:hover {
+  color: inherit;
+}

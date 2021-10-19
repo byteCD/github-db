@@ -1,0 +1,16 @@
+.UserRepository__repository {
+  margin: 20px 0;
+}
+
+.UserRepository__repository h5 {
+  font-weight: 100;
+}
+
+.UserRepository__repository span {
+  font-weight: 500;
+}
+
+.UserRepository a {
+  text-decoration: none;
+  color: inherit;
+}

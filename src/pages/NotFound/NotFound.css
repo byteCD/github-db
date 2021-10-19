@@ -1,0 +1,5 @@
+.NotFound {
+  margin-top: 50px;
+  text-align: center;
+  min-height: calc(100vh - 162px);
+}
