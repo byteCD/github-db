@@ -13,7 +13,6 @@ const UserRepositories = ({ repositories }) => {
   const repositoryLoaded = useSelector(
     (state) => state.repositoryReducer.repositoryLoaded
   );
-  const user = useSelector((state) => state.userReducer.user);
 
   const showRepositoryInfo = (username, repositoryName) => {
     dispatch(getRepository(username, repositoryName));

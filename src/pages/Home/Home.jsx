@@ -1,12 +1,12 @@
 import { Col, Container, Row } from "react-bootstrap";
 import React from "react";
 import SearchUsersForm from "../../components/SearchUsersForm/SearchUsersForm";
-import "./SearchUsers.css";
+import "./Home.css";
 import UsersList from "../../components/UsersList/UsersList";
 
-const SearchUsers = () => {
+const Home = () => {
   return (
-    <div className="SearchUsers">
+    <div className="Home">
       <Container>
         <Row>
           <Col>
@@ -19,4 +19,4 @@ const SearchUsers = () => {
   );
 };
 
-export default SearchUsers;
+export default Home;
