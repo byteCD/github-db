@@ -20,6 +20,7 @@ const UserInfo = ({ user }) => {
         <a href={user.html_url} target="_blank" rel="noreferrer">
           <h6>Смотреть профиль на GitHub</h6>
         </a>
+        <Link to="/">На главную</Link>
       </Col>
     </div>
   );
