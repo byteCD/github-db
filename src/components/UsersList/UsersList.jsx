@@ -13,9 +13,8 @@ const UsersList = () => {
   return (
     <div className="UsersList">
       <Container>
-        {!usersLoaded ? (
-          <Loader />
-        ) : (
+        {!usersLoaded && <Loader />}
+        {usersLoaded && (
           <Row lg="3" sm="2" xs="1">
             {users?.map((user) => (
               <Col key={user.id}>

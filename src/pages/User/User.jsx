@@ -33,9 +33,8 @@ const User = () => {
       <div className="User">
         <Container>
           <Row>
-            {userError ? (
-              <Error error={userError} />
-            ) : (
+            {userError && <Error error={userError} />}
+            {!userError && (
               <>
                 <Col xl="3">
                   <UserInfo user={user} />
